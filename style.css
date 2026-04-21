@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+}
+
+.table {
+  background-color: black;
+}
+
+.table * {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #444;
+  height: 10vh;
+}
+
+header * {
+  margin-left: 2vw;
+  font-size: 1.3em;
+  color: white;
+}
+
+header input {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+}
+
+#games {
+  font-size: 1.5em;
+  width: 30vw;
+  height: 90vh;
+  background-color: #3f2a21;
+  margin: 0;
+}
+
+#startForms {
+  position: absolute;
+  right: 0;
+  top: 10vh;
+  width: 70vw;
+  background-color: #2f1a11;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+#codeForm {
+  margin-top: 10vh;
+}
+
+#startForms * {
+  color: white;
+}
+
+#startForms input, #startForms select, #startForms option {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+}
+
+#hands {
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+.hand {
+  display: flex;
+  justify-content: center;
+}
+
+.hand img {
+  width: 3vw;
+}
+
+#pself {
+  position: fixed;
+  bottom: 0;
+  width: 70vw;
+}
+
+#pself img {
+  width: 6vw;
+  margin-left: 3px;
+}
+
+#gameMain {
+  background-color: #aaa;
+}
+
+#board {
+  margin: 20vh auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 16vw;
+  min-height: 23.09vw;
+  background-image: url("bilder/board.png");
+  background-size: contain;
+}
+ 
+#board img {
+  width: 8vw;
+}
+
+main {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 70vw;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 30vw;
+  background-color: brown;
+}
+
+#trumfDiv {
+  width: 20vh;
+  margin: 5vh 3vw;
+  padding: 5%;
+  background-color: #2f1a11;
+}
+
+#trumfDiv p {
+  color: white;
+  font-size: 1.2em;
+  margin: 2vh 0 0;
+}
+
+#trumfDiv img {
+  width: 100%;
+}
+
+#exitForm {
+  position: fixed;
+  top: 10vh;
+  right: 2vw;
+}
+
+#exitForm * {
+  font-size: 2em;
+  height: 15vh;
+  width: 100%;
+}
+
+#turnPlayerDiv {
+  text-align: center;
+  margin: auto;
+  background-color: lightgray;
+  font-size: 3em;
+}
+
+#chat {
+  position: fixed;
+  bottom: 1vh;
+  right: 4vw;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  background-color: lightgray;
+  width: 20vw;
+  height: 35vh;
+  border: 10px solid rgb(116, 71, 31);
+}
+
+#chat span {
+  margin-bottom: 10px;
+}
+
+#chat img {
+  width: 30px;
+}
